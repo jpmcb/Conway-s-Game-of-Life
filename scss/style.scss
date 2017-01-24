@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+
+$board-background: #dbd0ce;
+$alive-color: #1d1d87;
+$born-color: #7b28bf;
+$border-color: #454347;
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px;
+}
+
+#game-board {
+  height: 504px;
+  width: 896px;
+  border: solid #7d7484;
+  margin: 0 auto;
+}
+
+.cell {
+  display: block;
+  float: left;
+  border: 1px solid $border-color;
+  height: 5px;
+  width: 5px;
+}
+
+.dead {
+  background: $board-background;
+}
+
+.alive {
+  background: $alive-color;
+}
+
+.born {
+  background: $born-color;
+}
+
+#controls {
+  width: 600px;
+  text-align: center;
+  margin: 15px auto;
+  
+  button {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    margin: 15px auto;
+    width: 100px;
+    height: 50px;
+  }
+  
+  h3 {
+    float: left;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 25px 5px 5px 40px;
+  }
+  
+  a {
+    margin: 55px;
+  }
+}
+
+footer {
+  text-align: center;
+}
