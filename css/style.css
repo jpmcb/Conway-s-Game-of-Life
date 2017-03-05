@@ -55,7 +55,8 @@ h1 {
   display: block;
   margin: 25px 5px 5px 40px;
 }
-#controls a {
+
+#controls #credits {
   margin: 55px;
 }
 
